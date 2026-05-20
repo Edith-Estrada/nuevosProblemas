@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Póliza de Seguro</title>
+     <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+
+<div class="contenedor">
+
+    <h2>Seguro de Auto</h2>
+
+    <select id="plan">
+        <option value="A">Cobertura Amplia (A)</option>
+        <option value="B">Daños a terceros (B)</option>
+    </select>
+
+    <input type="number" id="edad" placeholder="Edad">
+
+    <input type="text" id="alcohol" placeholder="¿Bebe alcohol? si/no">
+
+    <input type="text" id="lentes" placeholder="¿Usa lentes? si/no">
+
+    <input type="text" id="enfermedad" placeholder="¿Tiene enfermedad? si/no">
+
+    <button onclick="calcular()">
+        Calcular
+    </button>
+
+    <p id="resultado"></p>
+
+</div>
+
+<script src="../scripts/function9.js"></script>
+
+</body>
+</html>
